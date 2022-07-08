@@ -43,15 +43,16 @@
 }
 
 .name {
-    color: #D6DBDF;
-    font-size: 30px;
+    color: #eeeeee;
+    font-size: 20px;
+    text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
 
 .profession {
-    color: #eeeeee;
-    font-size: 20px;
+    color: #D6DBDF;
+    font-size: 18px;
     text-transform: uppercase;
     text-align: center;
 }
@@ -60,10 +61,11 @@
 .left-title {
     color: #eeeeee;
     font-size: 20px;
+    padding-top: 1rem;
 }
 
 .contact-info ul {
-    padding-top: 1.5rem;
+    padding-top: 0.5rem;
 }
 
 .contact-info ul li,
@@ -80,7 +82,7 @@
 }
 
 .skills ul {
-    padding-top: 1.5rem;
+    padding-top: 0.5rem;
 }
 .skills ul li p {
     padding: .4rem 0;
@@ -92,13 +94,36 @@
 }
 
 .right-title {
+    font-size: 25px;
     color: #eeeeee;
+    padding-top: 1rem;
 }
-
 .gap {
     padding-bottom: 2rem;
 }
 .about-me-contents {
     font-size: 18px;
     color: #eeeeee;
+}
+.experience-contents,
+.education-contents,
+.awards-contents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: #f1f8fd;
+    font-size: 18px;  
+    padding: 2rem; 
+}
+.exp-time-period,
+.education-time-period,
+.awards-time-period {
+    font-size: 18px;
+    padding-bottom: 2rem;
+}
+.exp-position,
+.exp-company-name,
+.award-company-name,
+.education-school-name {
+    font-size: 25px;
+    font-weight: lighter;
 }
