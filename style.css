@@ -17,13 +17,13 @@
 .left-section {
     grid-column: span 2;
     height: 100%;
-    background-color: #999999;
+    background-color: #00204A;
 }
 
 .right-section {
     grid-column: span 5;
     height: 100%;
-    background-color: #424a50;
+    background-color: #4B6982;
     border-radius: 0px 60px 0px 0px;
 }
 
@@ -43,7 +43,7 @@
 }
 
 .name {
-    color: #eeeeee;
+    color: #D6DBDF;
     font-size: 20px;
     text-align: center;
     letter-spacing: 2px;
@@ -51,7 +51,7 @@
 }
 
 .profession {
-    color: #D6DBDF;
+    color: #FDB44B;
     font-size: 18px;
     text-transform: uppercase;
     text-align: center;
@@ -59,7 +59,7 @@
 
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
-    color: #eeeeee;
+    color: #FDB44B;
     font-size: 20px;
     padding-top: 1rem;
 }
@@ -94,8 +94,8 @@
 }
 
 .right-title {
-    font-size: 25px;
-    color: #eeeeee;
+    font-size: 30px;
+    color: #70C6C7;
     padding-top: 1rem;
 }
 .gap {
@@ -107,7 +107,7 @@
 }
 .experience-contents,
 .education-contents,
-.awards-contents {
+.award-contents {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     color: #f1f8fd;
@@ -116,7 +116,7 @@
 }
 .exp-time-period,
 .education-time-period,
-.awards-time-period {
+.award-time-period {
     font-size: 18px;
     padding-bottom: 2rem;
 }
@@ -126,4 +126,5 @@
 .education-school-name {
     font-size: 25px;
     font-weight: lighter;
+    color: #FDB44B;
 }
